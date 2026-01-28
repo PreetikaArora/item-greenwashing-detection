@@ -13,8 +13,8 @@ The project utilizes a **Tri-Layer Data Model** to cross-reference products:
 
 
 ## Repository Structure
-* `data/raw/`: Contains the three primary source files (`Raw_Amazon_Product_Dataset_1000.csv`, `EPA_RawDataSet.csv`, `sds_raw_extraction-2.csv`).
-* `data/processed/`: Stores the final output (`Final_Integrated_Dataset_1000.csv`) after the integration script runs.
+* `data/raw/`: Contains raw data sets.
+* `data/integrated_dataset/`: Stores the final output (`final_integrated_greenwashing_dataset.csv`) after the integration data pipeline runs.
 * `notebooks/`: Python code for data cleansing, Exploratory Data Analysis (EDA), visualization of the "Greenwashing Gap and Resarch questions methodologies implementation"
 
 
